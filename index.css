@@ -78,3 +78,15 @@ body, html {
     align-items: center;
     gap: 5px;
 }
+
+@media (max-width: 600px) {
+    .header, .footer {
+        font-size: 14px;
+        padding: 8px 0;
+    }
+
+    .tab-link img {
+        width: 20px;
+        height: 20px;
+    }
+}
